@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Quicksand&family=Raleway:wght@800&family=Vina+Sans&display=swap');
+
+.bg-revive-station {
+    background: #171717;
+    width: 650px;
+    height: 370px;
+    border: 1.5px solid rgb(255, 120, 71);
+    border-radius: 10px;
+
+    position: relative;
+    top: 320px;
+    margin: auto auto;
+}
+
+.revive-style-rect {
+    background: rgba(255, 120, 71, 0.5);
+    width: 1.3px;
+    height: 35px;
+    border-radius: 500px;
+
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.revive-style-title {
+    color: white;
+    font-family: 'Quicksand';
+
+    position: absolute;
+    top: -18px;
+    left: 5px;
+}
+
+.revive-style-desc {
+    color: #808080;
+    width: 500px;
+    font-family: 'Josefin Sans';
+    font-size: 15px;
+
+    position: absolute;
+    top: 3px;
+    left: 5px;
+}
+
+.revive-style-close {
+    position: absolute;
+    top: 20px;
+    right: 18px;
+
+    cursor: pointer;
+}
+
+.revive-leftbox {
+    background: #242424;
+    width: 450px;
+    height: 170px;
+
+    border-radius: 10px;
+
+    position: absolute;
+    left: 10px;
+    top: 50px
+}
+
+.revive-leftbox-box {
+    background: #202020;
+    width: 300px;
+    height: 100px;
+
+    border: 1px solid rgba(255,255,255, 0.2);
+    border-radius: 10px;
+
+    position: absolute;
+    left: 75px;
+    top: 40px;
+}
+
+.revive-leftbox-title {
+    color: white;
+    font-family: 'Quicksand';
+
+    text-align: center;
+    position: relative;
+    top: -5px;
+}
+
+.revive-leftbottombox {
+    background: #242424;
+    width: 450px;
+    height: 120px;
+
+    border-radius: 10px;
+
+    position: absolute;
+    left: 10px;
+    top: 230px
+}
+
+.revive-leftbottombox-title {
+    color: white;
+    font-family: 'Quicksand';
+    font-weight: bold;
+
+    position: absolute;
+    left: 10px;
+    top: -5px
+}
+
+.revive-leftbottombox-style {
+    background: white;
+    width: 430px;
+    height: 1px;
+
+    position: absolute;
+    top: 36px;
+    left: 10px
+}
+
+.revive-leftbottombox-description {
+    color: rgb(221, 221, 221);
+    font-family: 'Quicksand';
+    width: 430px;
+
+    position: absolute;
+    top: 30px;
+    left: 10px
+}
+
+.revive-leftbox-desc {
+    font-family: 'Quicksand';
+    font-size: 15px;
+    color: white;
+
+    position: absolute;
+    left: 75px;
+}
+
+.revive-idbox {
+    background: #171717;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+
+    width: 200px;
+    height: 35px;
+
+    position: absolute;
+    left: 45px;
+    top: 40px;
+
+    text-align: center;
+}
+
+.revive-idbox:hover {
+    cursor: text;
+    border: 1px solid rgb(255, 120, 71);
+}
+
+.revive-rightbox {
+    background: #242424;
+    width: 160px;
+    height: 280px;
+
+    border-radius: 10px;
+
+    position: absolute;
+    right: 15px;
+    top: 60px
+}
+
+.revive-rightbox-logo {
+    width: 135px;
+    border-radius: 100px;
+    border: 2px solid rgba(255,255,255,0.5);
+
+    position: absolute;
+    top: 7px;
+    left: 12px;
+}
+
+.revive-rightbox-title {
+    color: white;
+    font-family: 'Quicksand';
+    font-size: 12px;
+
+    position: absolute;
+    bottom: 90px;
+    left: 10px;
+    text-align: center;
+}
+
+.revive-rightbox-pay-contain {
+    background: #202020;
+    width: 140px;
+    height: 90px;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 180px;
+    left: 10px;
+}
+
+.revive-cashpay {
+    background: #171717;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 5px;
+
+    font-family: 'Quicksand';
+    font-size: 18px;
+
+    width: 125px;
+    height: 30px;
+
+    position: absolute;
+    left: 7px;
+    top: 10px;
+}
+
+.revive-cashpay:hover {
+    cursor: pointer;
+    border: 1px solid rgba(255, 120, 71, 0.5);
+}
+
+.revive-cardpay {
+    background: #171717;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 5px;
+
+    font-family: 'Quicksand';
+    font-size: 18px;
+
+    width: 125px;
+    height: 30px;
+
+    position: absolute;
+    top: 50px;
+    left: 7px
+}
+
+.revive-cardpay:hover {
+    cursor: pointer;
+    border: 1px solid rgba(255, 120, 71, 0.5);
+}
+
+.revive-idbox:hover {
+    border-color: rgb(255, 120, 71);
+}
+
+.revive-submit {
+    width: 207px;
+    height: 30px;
+
+    font-family: 'Quicksand';
+    font-weight: lighter;
+    font-size: 15px;
+
+    border: 1px solid;
+    border-radius: 5px;
+    background: #242424;
+    color: white;
+
+    position: absolute;
+    top: 220px;
+    left: 72px;
+    z-index: 1;
+}
+
+.revive-submit:hover {
+    background-color: #303030;
+    border-color: rgb(252, 136, 136);
+}

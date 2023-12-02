@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="jquery-3.7.1.min.js"></script>
+        <script src="ui_javascript.js"></script>
+    </head>
+    <body>
+        <div class="bg-revive-station" id="bg-revive-station">
+            <img class="revive-style-close" id="revive-style-close" src="assets/close-icon.png" width="15px" height="15px">
+            <div class="revive-style-rect">
+                <p class="revive-style-title">Revivestation</p>
+                <p class="revive-style-desc">Hier kannst du deine Freunde reanimieren</p>
+            </div>
+
+            <div class="revive-leftbottombox">
+                <p class="revive-leftbottombox-title">Informationen :</p>
+                <p class="revive-leftbottombox-description">An diesen Reanimierungs Stationen kannst du Personen selber Reanimieren, solang kein Medizinisches Personal anwesend ist.</p>
+                <div class="revive-leftbottombox-style"></div>
+            </div>
+
+            <div class="revive-leftbox">
+                <p class="revive-leftbox-title">Wen möchtesten sie reanimieren?</p>
+                <div class="revive-leftbox-box">
+                    <p class="revive-leftbox-desc">Gebe hier die ID ein:</p>
+                    <input class="revive-idbox" id="revive-idbox" type="number" placeholder="Spieler ID:">
+                </div>
+            </div>
+            <div class="revive-rightbox">
+                <img class="revive-rightbox-logo" src="assets/calimero-logo.png">
+                <p class="revive-rightbox-title">Wie möchtest du zahlen?</p>
+                <div class="revive-rightbox-pay-contain">
+                    <input class="revive-cashpay" id="revive-cashpay" type="submit" value="Bargeld" onclick="CashPay()">
+                    <input class="revive-cardpay" id="revive-cardpay" type="submit" value="Kreditkarte" onclick="CardPay()">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
