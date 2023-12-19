@@ -7,7 +7,6 @@ function SetDisplay(bool)
     SendNUIMessage({
         type = "ui",
         status = bool,
-
     })
 end
 
@@ -73,7 +72,7 @@ Citizen.CreateThread(function()
             DrawMarker(1, x, y, z, 0, 0, 0, 0, 0, 0, 1.0, 1.0, 1.0, Config.MarkerColor.r, Config.MarkerColor.g, Config.MarkerColor.b, Config.MarkerColor.a, false, false, 2, false, nil, nil, false)
             if(playerDistance < 1.5) then
                 if not (alreadyOpen) then
-                    ESX.ShowHelpNotification('Drücke ~INPUT_CONTEXT~ um die Revivestation zu öffnen!', true, true)
+                    ESX.ShowHelpNotification(Config.Messages['presstoOpen'], true, true)
                     if(IsControlJustPressed(0, 38)) then
                         SetDisplay(true)
                     end

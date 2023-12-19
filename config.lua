@@ -30,7 +30,8 @@ Config.Messages = { -- 🇹​​🇭​​🇪​​🇸​​🇪​ ​🇦�
     ['personNotDead'] = 'Die Person ist noch am Leben.',
     ['idisNothere'] = 'Angegebener Spieler ist nicht in der nähe!',
     ['noMoney'] = 'Du hast kein Geld um diese Person wiederzubeleben!',
-    ['enoughtmedics'] = 'Es sind genügend Mediziner im Dienst!'
+    ['enoughtmedics'] = 'Es sind genügend Mediziner im Dienst!',
+    ['presstoOpen'] = 'Drücke ~INPUT_CONTEXT~ um die Revivestation zu öffnen!'
 }
 
 Config.Notify = { -- ​🇹​​🇭​​🇮​​🇸​ ​🇮​​🇸​ ​🇼​​🇭​​🇪​​🇷​​🇪​ ​🇾​​🇴​​🇺​ ​🇵​​🇺​​🇹​ ​🇾​​🇴​​🇺​​🇷​ ​🇳​​🇴​​🇹​​🇮​​🇫​​🇾​ ​🇸​​🇾​​🇸​​🇹​​🇪​​🇲​ ​🇴​​🇰​​🇴​​🇰​​🇳​​🇴​​🇹​​🇮​​🇫​​🇾​ ​🇪​​🇹​​🇨​.
