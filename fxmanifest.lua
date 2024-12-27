@@ -1,8 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'ProxyFile | proxyscripts.dev'
-description 'bought from proxyscripts.dev'
+author 'ProxyFile'
+description 'A simple Revive Station'
 version '1.0.0'
 
 lua54 'yes'
