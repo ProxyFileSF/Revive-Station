@@ -14,6 +14,13 @@ We may revisit and continue this project in the future. Community contributions 
 
 ---
 
+## 📖 About
+
+This project was originally intended to be a marketplace resource but has been made public as I decided not to continue development.  
+You may find events or names from my store, **ProxyScripts.dev**, still present in the code. Feel free to remove or modify them as needed.
+
+---
+
 ## Features
 
 - 🏥 **Revive Station:** A customizable revive station where players can self-revive.  
@@ -39,13 +46,6 @@ We may revisit and continue this project in the future. Community contributions 
 
 ---
 
-## Usage
-
-- Players can locate the revive station in-game (location customizable in the configuration file).  
-- Interact with the station to revive yourself when downed.
-
----
-
 ## Configuration
 
 Edit the `config.lua` file to adjust the following settings:  
@@ -58,7 +58,7 @@ Edit the `config.lua` file to adjust the following settings:
 
 ## Contributing
 
-Although this project is currently inactive, we welcome contributions to improve **Revive-Station**! Here's how you can help:
+Although this project is currently inactive, contributions from the community are highly appreciated! Here's how you can help:  
 
 1. Fork the repository.  
 2. Create a new branch for your feature or bugfix: `git checkout -b feature-name`  
@@ -84,8 +84,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments
 
-- Thanks to the **FiveM** community for providing a great platform for custom servers.  
-- Inspired by other open-source projects that make server customization easy and fun.
+- Thanks to the **FiveM** community for providing a flexible platform for custom server development.  
+- Inspired by open-source contributions that make FiveM server setup easier for everyone.  
 
 ---
 
